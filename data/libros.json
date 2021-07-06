@@ -1,0 +1,84 @@
+{
+    "infoLibros": [
+        {
+            "id": "1",
+            "nombre": "The Hunger Games",
+            "autor": "Suzanne Collins",
+            "portada": "./images/thgportada.jpg",
+            "precio": "1500",
+            "disponible": true
+        },
+        {
+            "id": "2",
+            "nombre": "Catching Fire",
+            "autor": "Suzanne Collins",
+            "portada": "./images/catchingfireportada.jpg",
+            "precio": "1600",
+            "disponible": true
+        },
+        {
+            "id": "3",
+            "nombre": "Mockingjay",
+            "autor": "Suzanne Collins",
+            "portada": "./images/mockingjayportada.jpg",
+            "precio": "2000",
+            "disponible": true
+        },
+        {
+            "id": "4",
+            "nombre": "The Maze Runner",
+            "autor": "James Dashner",
+            "portada": "./images/tmzportada.jpg",
+            "precio": "1300",
+            "disponible": true
+        },
+        {
+            "id": "5",
+            "nombre": "The Scorch Trials",
+            "autor": "James Dashner",
+            "portada": "./images/tstportada.jpg",
+            "precio": "1500",
+            "disponible": true
+        },
+        {
+            "id": "6",
+            "nombre": "The Death Cure",
+            "autor": "James Dashner",
+            "portada": "./images/lcmportada.jpg",
+            "precio": "1700",
+            "disponible": true
+        },
+        {
+            "id": "7",
+            "nombre": "Carrie",
+            "autor": "Stephen King",
+            "portada": "./images/carrieportada.jpg",
+            "precio": "900",
+            "disponible": false
+        },
+        {
+            "id": "8",
+            "nombre": "IT",
+            "autor": "Stephen King",
+            "portada": "./images/itportada.jpg",
+            "precio": "2300",
+            "disponible": true
+        },
+        {
+            "id": "9",
+            "nombre": "Cementerio de Animales",
+            "autor": "Stephen King",
+            "portada": "./images/cementerioportada.jpg",
+            "precio": "2000",
+            "disponible": true
+        },
+        {
+            "id": "10",
+            "nombre": "Ready Player One",
+            "autor": "Ernest Cline",
+            "portada": "./images/rpoportada.jpg",
+            "precio": "1650",
+            "disponible": true
+        }
+    ]
+}

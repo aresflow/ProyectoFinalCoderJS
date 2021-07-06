@@ -1,0 +1,221 @@
+/* Version Desktop */
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    padding: 90px 20px 0;
+}
+
+.header {
+    background-color: #0769e9;
+    height: 60px;
+    position: fixed;
+    width: 100%;
+    top: 5px;
+    left: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 60px;
+}
+
+.nav-menu {
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+
+.nav-menu-item {
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 60px;
+    text-transform: uppercase;
+    width: max-content;
+}
+
+.nav-menu-link {
+    padding: 8px 12px;
+    border-radius: 3px;
+}
+.nav-menu-link:hover {
+    background-color: #034574;
+    transition: 0.5s;
+}
+
+.nav-toggle {
+    color: white;
+    background: none;
+    border: none;
+    font-size: 30px;
+    padding: 0 20px;
+    line-height: 40px;
+    display: none;
+}
+
+.banners {
+    border: 2px solid black;
+    height: 250px;
+    width: 800px;
+    margin-left: 20%;
+    margin-top: 50px;
+}
+
+.sectorrecomendados {
+    margin-top: 100px;
+}
+
+.recomendados {
+    border: 2px solid rebeccapurple;
+    margin-left: 5%;
+    height: 375px;
+    width: 700px;
+}
+
+.promos {
+    border: 2px solid black;
+    margin-left: 84%;
+    margin-top: -376px;
+    height: 375px;
+    width: 200px;
+}
+
+.portadas {
+    width: 100px;
+    height: 150px;
+    margin: 15px;
+}
+
+.maps {
+    margin: 20px;
+}
+
+.libros-abiertos {
+    width: 256px;
+    height: 350px;
+}
+
+/* CARD de info en la landing del libro */
+
+.info-book {
+    margin-left: 300px;
+    margin-top: -180px;
+    width: 200px;
+    height: auto;
+    background-color: gray;
+    text-align: center;
+}
+
+.stock {
+    margin-left: 300px;
+    margin-top: -190px;
+}
+
+.submit-bookk {
+    margin-top: 10px;
+}
+
+.info-book-carrito {
+    margin-left: 0px;
+    margin-bottom: 30px;
+    text-align: center;
+    width: 200px;
+    height: auto;
+    background-color: #0769e9;
+    border-radius: 10%;
+}
+
+.info-book-agregado {
+    margin-left: 300px;
+    margin-top: 80px;
+}
+.button-carrito {
+    margin-left: 10px;
+}
+
+.new-order {
+    margin-top: 20px;
+    line-height: 22px;
+}
+
+
+#formulario {
+    margin-top: 30px;
+}
+/* Version Mobile */
+
+@media (max-width: 768px) {
+    body {
+        padding-top: 70px;
+    }
+
+    .header {
+        height: 40px;
+    }
+    
+    .nav {
+        height: 50px;
+    }
+    .logo {
+        font-size: 25px;
+        font-weight: bold;
+        padding: 0 20px;
+        line-height: 40px;
+    }
+    
+    .nav-menu {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        background-color: #2c3e50;
+        position: fixed;
+        left: 0;
+        top: 50px;
+        width: 100%;
+        padding: 20px 0;
+        height: calc(100% - 40px);
+        overflow-y: auto;
+        left: 100%;
+        transition: left 0.3s;
+    }
+    
+    .nav-menu-item {
+        line-height: 70px;
+    }
+    
+    .nav-menu-link:hover {
+        background: none;
+        color: #83c5f7;
+        transition: 0.5s;
+    }
+
+    .nav-toggle {
+        display: block;
+        height: 20px;
+        margin-top: 1px;
+    }
+
+    .nav-menu_visible {
+        left: 0;
+    }
+
+    .nav-toggle:focus:not(:focus-visible) {
+        outline: none;
+    }
+}
